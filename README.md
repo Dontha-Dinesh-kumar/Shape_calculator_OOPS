@@ -1,12 +1,20 @@
-# Shape Area Calculator
+# Shape_calculator_OOPS
 
-This mini project demonstrates the use of Python's `abc` module with abstract base classes to calculate the area of geometric shapes like squares and rectangles.
+A simple Object-Oriented Python project to calculate the area of different shapes using abstraction and inheritance.
 
-## Features
-- Uses abstraction with `abc.ABC`
-- Rectangle and Square classes implement the `area()` method
-- Encapsulation used for square side
+## 🔧 Features
+- Uses `abc` module for abstract base class
+- Inherits and implements `area()` method in derived classes
+- Supports:
+  - ✅ Square
+  - ✅ Rectangle
+- Demonstrates encapsulation and method overriding
 
-## How to Run
+## 📂 Files
+- `Code.py` – Contains the main logic and class definitions
+
+## ▶️ How to Run
+Make sure you have Python installed, then run:
+
 ```bash
-python main.py
+python Code.py
